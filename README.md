@@ -27,6 +27,7 @@ _**Toda PR a este repositorio será declinada y ocasionará la anulación del ex
 * Modularice sú código lo suficiente de tal forma que cada método haga una sola cosa.
 * Hemos soñado con poder leer las rutas de entrada y salida desde un archivo de configuración, sería increible tener
   uno! (leer el archivo params)
+* Nos gustaría mucho que se realizara un upgrade al proyecto para que funcione con la versión estable de Spark más reciente que sea compatible con Java 8/11
 
 ## Ejercicio
 
