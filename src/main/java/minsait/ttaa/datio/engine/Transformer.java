@@ -48,15 +48,14 @@ public class Transformer extends Writer {
      * @return a Dataset readed from csv file
      */
     private Dataset<Row> readInput() {
-        Dataset<Row> df = spark.read()
+        return spark.read()
                 .option(HEADER, true)
                 .option(INFER_SCHEMA, true)
                 .csv(INPUT_PATH);
-        return df;
     }
 
     /**
-     * @param df
+     * @param df is a Dataset with players information (must have team_position, short_name and overall columns)
      * @return a Dataset with filter transformation applied
      * column team_position != null && column short_name != null && column overall != null
      */
