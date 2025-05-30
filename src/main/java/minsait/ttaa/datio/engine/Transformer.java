@@ -30,7 +30,7 @@ public class Transformer extends Writer {
         df.show(100, false);
         df.printSchema();
 
-        // Uncomment when you want write your final output
+        // Uncomment when you want to write your final output
         //write(df);
     }
 
@@ -45,7 +45,7 @@ public class Transformer extends Writer {
     }
 
     /**
-     * @return a Dataset readed from csv file
+     * @return a Dataset read from csv file
      */
     private Dataset<Row> readInput() {
         return spark.read()
