@@ -12,7 +12,7 @@
 6. Sube los cambios a tu repositorio.
 7. Enviar por correo electronico la notificación de finalización y el link al repositorio de solución.
 
-_**Haz que tu repositorio sea privdo** y brinda acceso de lectrua a tu repositorio al usuario **dagarciam**_
+_**Haz que tu repositorio sea privdo** y brinda acceso de lectrua a tu repositorio a los usuarios **dagarciam**, **aadominguez** y **IndraREMM**_
 
 _**Toda PR a este repositorio será declinada y ocasionará la anulación del examen.**_
 
